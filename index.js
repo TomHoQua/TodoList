@@ -24,8 +24,10 @@ const container = document.getElementById("container");
 //         alert("YOU DIDN'T ADD ANYTHING");
 //     }
 // }) 
+//----------------------- code that i studied and wrote notes
 
 
+// code that i managed to write after
 addButon.addEventListener('click',()=>{
     let paragraph = document.createElement('p');
     paragraph.classList.add('paragraph-styling')
