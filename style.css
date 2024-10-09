@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+
+html, body{
+    width: 50%;
+    margin:0 auto;
+    font-family: 'Montserrat', Courier, monospace;
+
+}
+.todoContainer{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputField{
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    border: 1px solid black;
+    border-bottom-left-radius: 7.5%;
+    border-top-left-radius: 7.5%;
+    border-bottom-right-radius: 7.5%;
+    border-top-right-radius: 7.5%;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+#addButon{
+    height: 30px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+}
+#addButon:hover{
+    background-color: rgb(175, 181, 230);
+}
+.addingPart{
+    display: flex;
+    margin:5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph-styling{
+    margin: 0;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 20px;
+    font-style:inherit;
+    color: white;
+}
+.paragraph-styling:hover{
+    margin: 5px;
+    background-color: antiquewhite;
+    color: black;
+    border: 0.5px ridge blue;
+    border-radius: 5%;
+}
+
+.box{
+    background-image: linear-gradient(rgb(78, 107, 233),rgb(133, 184, 231));
+    border-radius: 5%;
+    height: 500px;
+    padding: 5px;
+}
